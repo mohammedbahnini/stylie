@@ -2,7 +2,7 @@
 $blue : #007cb9 ;
 $green : #42b883;
 $purple: #A060FF;
-$pink: #CB30E3;
+$pink: #F39E9E;
 $orange: #FFA84E;
 $gray: #e7eaf6;
 $red: #dc2f2f;
@@ -12,11 +12,13 @@ $white: #FFFFFF ;
 
 
 // put custom colors here
-$dark-blue: #172339;
-$light-blue: #49566D;
-$beige: #F3EDE7;
-$cream-white: #FAF8F6;
-$light-gray: #E8EFF2;
+$galactic-blue: #755CDE;
+$dark-purple: #552049;
+$summer-yellow: #F6A560;
+$light-red: #EB7565;
+$cyan: #61C4B7;
+$light-cream: #FFF7F0;
+$medium-brown: #7A746E;
 
 
 
@@ -32,13 +34,15 @@ $colors : (
     'red' : $red ,
     'yellow' : $yellow , 
     'white' : $white , 
-    'black' : black  ,  
+    'black' : $black ,    
     // custom colors 
-    'dark-blue' : $dark-blue ,
-    'light-blue' : $light-blue  , 
-    'beige' : $beige  ,
-    'cream-white' : $cream-white , 
-    'light-gray' : $light-gray  
+    'galactic-blue' : $galactic-blue ,
+    'dark-purple' : $dark-purple  , 
+    'summer-yellow' : $summer-yellow  ,
+    'light-red' : $light-red  , 
+    'cyan' : $cyan , 
+    'light-cream' : $light-cream , 
+    'medium-brown' : $medium-brown
 );
 
 
@@ -82,9 +86,9 @@ $font-sizes: (
 );
 
 
-$font-familly-base : "Epilogue", sans-serif ; // default font family is ( "Poppins", sans-serif )
+$font-familly-base : 'Plus Jakarta Sans', sans-serif; // default font family is ( "Poppins", sans-serif )
 $font-families : (
-    '1' : $font-familly-base
+    '1' : $font-familly-base 
 );
 
 $text-align-prefix: 'align';
